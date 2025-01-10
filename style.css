@@ -88,6 +88,10 @@
   background-color: rgb(255, 223, 94);
 }
 
+.cards .pink {
+    background-color:rgb(249, 19, 147);
+}
+
 .cards .card {
   display: flex;
   align-items: center;
