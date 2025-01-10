@@ -88,9 +88,6 @@
   background-color: rgb(255, 223, 94);
 }
 
-.cards .pink {
-    background-color: #ff1493;
-}
 
 .cards .card {
   display: flex;
