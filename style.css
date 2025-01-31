@@ -126,7 +126,7 @@
     color: #fff;
 }
 
-
+/* Background overlay */
 #popupOverlay {
     position: fixed;
     top: 0;
@@ -173,4 +173,3 @@
     visibility: visible !important;
     opacity: 1 !important;
 }
-
