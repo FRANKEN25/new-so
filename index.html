@@ -49,6 +49,33 @@
 
 </div>
     </header>
+
+                <div id="popupOverlay">
+    <div id="popupBox">
+        <h2>Selamat Datang!</h2>
+        <p>sudah minta akses sama dion?</p>
+        <button id="closePopup">akses sekarang!</button>
+    </div>
+</div>
+
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+  const popupOverlay = document.getElementById("popupOverlay");
+  const closePopup = document.getElementById("closePopup");
+
+  // Cek apakah popup sudah pernah ditutup
+ 
+    popupOverlay.classList.add("showPopup");
+  
+
+  // Event tombol tutup popup
+  closePopup.addEventListener("click", function () {
+    popupOverlay.classList.remove("showPopup");
+    localStorage.setItem("popupShown", "true"); // Simpan status popup
+  });
+});
+
+                </script>
     
     
 </body>
